@@ -1,0 +1,21 @@
+.add_post {
+    background: rgb(221, 208, 208);
+    border: rgb(218, 252, 184) solid;
+    box-sizing: 5px;
+    margin: 10px;
+    width:  1185px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 0px 15px 15px;
+}
+
+.post_button{
+    padding:7px 20px;
+    border: rgb(218, 252, 184) solid;
+}
+
+.textarea_for_new_post{
+    padding:10px 0px;
+}

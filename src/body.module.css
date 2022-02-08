@@ -1,0 +1,15 @@
+.btn {
+    background: #d4d1b6af;
+    color: rgb(0, 0, 0);
+    font-size:18px;
+    font-family: Montserrat;
+    font-weight:bold;
+    border-radius:7px;
+    cursor:pointer ;
+    border: rgb(218, 252, 184) solid;
+    align-content: center;
+}
+
+.btn:hover {
+    color:white
+}

@@ -1,0 +1,28 @@
+.users_wrapper {
+background: rgb(221, 208, 208);
+border: rgb(218, 252, 184) solid;
+box-sizing: 5px;
+margin: 10px;
+width:  1200px;
+border-radius: 10px;
+padding: 20px;
+}
+.userPhoto {
+    width:200px;
+    height: 220px;
+}
+
+.user_name {
+    font-family: preconnect;
+    font-weight:bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.user_status span {
+    font-family: preconnect;
+    font-weight:bold;
+    font-size: 18px;
+    margin: 20px,0px;
+}
+ 

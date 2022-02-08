@@ -1,0 +1,28 @@
+.dialogs {
+    display: flex;
+}
+
+.dialogs_items {
+    padding: 10px;
+}
+
+.dialogs_items .active {
+    color:rgb(0, 0, 0)
+}
+
+.messages {
+    padding:10px;
+}
+
+.messages .message {
+    color:white;
+    font-family: preconnect;
+}
+
+.companion {
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    font-family: preconnect;
+}
+
+

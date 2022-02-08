@@ -1,0 +1,28 @@
+.header {
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(171,171,171);
+}
+  
+.app_wrapper_content {
+    display: flex;
+    justify-content: flex-start;
+    background: url('../src/assets/images/sleep.jpg');
+    min-height: 1000px;
+}
+  
+.nav {
+    background: url('../src/assets/images/sleep.jpg');
+    padding: 20px ;
+}
+
+.profile {
+    padding-left: 150px;
+}
+
+
+ 
+
+
+
+  

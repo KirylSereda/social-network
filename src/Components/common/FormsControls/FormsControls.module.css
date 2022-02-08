@@ -1,0 +1,59 @@
+.login {
+    background: rgb(221, 208, 208);
+    border: rgb(218, 252, 184) solid;
+    box-sizing: 5px;
+    margin: 10px;
+    padding: 20px 40px;
+    width:  1200px;
+    font-family: preconnect;
+    height: max-content;
+    border-radius: 10px;
+}
+
+.login_input {
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+.login h3 {
+    margin: 0;
+}
+
+.login h1 {
+    margin: 10px 0px
+}
+
+.login_btn {
+    background: #d4d1b6af;
+    border: rgb(218, 252, 184) solid;
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+    font-size:20px;
+    padding: 5px 25px;
+    font-family: Montserrat;
+    font-weight:bold;
+    border-radius:7px;
+    cursor:pointer ;
+    align-content: center;
+    
+}
+
+.login_btn:hover {
+    color:white;
+}
+
+.form_control.error textarea {
+    border: solid red 4px ;
+}
+
+.form_control.error span {
+    color:red
+}
+
+.form_summary_error {
+    border:red 3px solid;
+    padding: 5px;
+    color:rosybrown;
+    font-family: preconnect;
+}
+

@@ -1,0 +1,63 @@
+.userProffile{
+    display: flex;
+    justify-content:flex-start;
+    background: rgb(221, 208, 208);
+    border: rgb(218, 252, 184) solid;
+    box-sizing: 5px;
+    margin: 10px;
+    width:  1200px;
+    border-radius: 10px;
+}
+
+.userPhoto {
+    width:270px;
+    height: 300px;
+    padding:0px 0px 18px 15px;
+    align-content: flex-end;
+    
+}
+
+.userPhoto{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.addPhotoBtn {
+    padding-top: 32px;
+    
+}
+.editBtn {
+    border: rgb(218, 252, 184) solid;
+    padding: 2px 20px;
+    margin: 10px 0;
+    background: #d4d1b6af;
+    color: rgb(0, 0, 0);
+    font-size:18px;
+    border-radius:7px;
+    cursor:pointer ;
+    border: rgb(218, 252, 184) solid;
+}
+
+.editBtn:hover {
+    color: rgb(255, 255, 255);
+}
+  
+   .fullName {
+    font-size:25px ;
+    font-family: preconnect;
+    padding: 2px 0px 5px;
+    font-weight: bold;
+   }
+
+   .dataProfile {
+       padding: 30px;
+   }
+
+
+   .profile_status {
+     background-color: rgb(202, 197, 197);;
+    font-family: preconnect;
+    padding-left: 10px;
+    border-radius: 4px;
+   }
+  

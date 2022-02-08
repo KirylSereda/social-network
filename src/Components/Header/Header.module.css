@@ -1,0 +1,31 @@
+.header img {
+    width:75px;
+    height: 70px;
+}
+
+.login_block {
+    padding: 20px;
+    font-family: preconnect;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    float:right;
+}
+
+.header_button {
+    padding: 5px 20px;
+    margin-left: 15px;
+    border: rgb(218, 252, 184) solid;
+    text-decoration: none;
+}
+
+.header_button:hover {
+    color:white;
+}
+    
+.header_link {
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+}
+    

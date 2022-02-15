@@ -1,4 +1,3 @@
-import React from 'react';
 import s from './users.module.css';
 import userPhoto from "../../assets/images/images.png"
 import { NavLink } from 'react-router-dom';

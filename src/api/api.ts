@@ -1,4 +1,5 @@
 import axios from "axios";
+import { ProfileType } from "../types/generalTypes";
 
 const instance = axios.create({
     baseURL: 'https://social-network.samuraijs.com/api/1.0/',
@@ -17,13 +18,13 @@ export const usersAPI = {
                 return response.data;
             });
     },
-    follow(userId) {
+    follow(userId:number) {
         return instance.post(`follow/${userId}`)
     },
-    unfollow(userId) {
+    unfollow(userId:number) {
         return instance.delete(`follow/${userId}`)
     },
-    getProfile(userId) {
+    getProfile(userId:number) {
 
         return profileAPI.getProfile(userId);
     }
@@ -32,7 +33,7 @@ export const authAPI = {
     me() {
         return instance.get(`auth/me`)
     },
-    login(email, password, rememberMe = false) {
+    login(email:string, password:string, rememberMe:boolean = false) {
         return instance.post(`auth/login`, { email, password, rememberMe, })
     },
     logout() {
@@ -43,46 +44,28 @@ export const authAPI = {
 
 export const profileAPI = {
 
-    getProfile(userId) {
+    getProfile(userId:number) {
         return instance.get(`profile/${userId}`)
     },
-    getStatus(userId) {
+    getStatus(userId:number) {
         return instance.get(`profile/status/${userId}`)
     },
-    updateStatus(status) {
+    updateStatus(status:string) {
         return instance.put(`profile/status`, { status: status })
     },
-    savePhoto(photoFile) {
+    savePhoto(photoFile:any) {
         const formData = new FormData();
         formData.append("image", photoFile)
         return instance.put(`profile/photo`, formData, {
-            Headers: {
+            headers: {
                 'Content-Type': 'multipart/form-data'
             },
 
         })
 
     },
-    saveProfile(profile) {
+    saveProfile(profile:ProfileType) {
         return instance.put(`profile`, profile);
     }
 }
-    
-
-
-
-//  this.props.getUsers(pageNumber,this.props.pageSize);
-//         this.props.toggleIsFetching(true);
-//         this.props.setCurrentPages(pageNumber);
-//         usersAPI.getUsers(pageNumber,this.props.pageSize)
-//             .then(data => {
-//                 this.props.toggleIsFetching(false);
-//                 this.props.setUsers(data.items);
-//             });
-
-// export const getUsers2 = (currentPage = 1, pageSize = 10) => {
-//     return instance.get(`users?page=${currentPage}&count=${pageSize}`)
-//         .then(response => {
-//             return response.data;
-//         });
-// }
+   

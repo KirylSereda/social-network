@@ -1,7 +1,4 @@
-# Проект социальной сети, создан с использованием технологий React,Redux.
-Информация: 
-Для ознакомления с проектом вы можете авторизоваться под тестовой учетной записью.
+# Social network project created using React, Redux technologies.
+Information: To get acquainted with the project, you can log in under a test account.
 
-Учетные данные тестовой учетной записи:
-Email: free@samuraijs.com
-Password: free
+Test account credentials: entry Email: free@samuraijs.com Password: free
